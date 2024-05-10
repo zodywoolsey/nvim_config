@@ -1,7 +1,7 @@
 -- UI CONFIG --
 vim.opt.number = true
 vim.opt.relativenumber = true
-vim.opt.cursorline = true
+vim.opt.cursorline = false
 vim.opt.termguicolors = true
 vim.opt.wrap = false
 
