@@ -6,6 +6,8 @@ return
                 require("mini.colors").setup()
                 require("mini.comment").setup()
                 require("mini.indentscope").setup()
+                require("mini.files").setup()
+                vim.keymap.set('n', '<Leader>-', function() MiniFiles.open() end, opts)
                 require("mini.base16").setup({
                         palette = {
                                 base00 = '#112641',
